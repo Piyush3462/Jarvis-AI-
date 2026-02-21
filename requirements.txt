@@ -1,0 +1,6 @@
+google-genai==1.64.0
+pip==26.0.1
+PyAudio==0.2.14
+python-dotenv==1.2.1
+pyttsx3==2.99
+SpeechRecognition==3.14.5
