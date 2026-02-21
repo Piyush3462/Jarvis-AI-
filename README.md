@@ -42,7 +42,7 @@ Jarvis AI is a Python-based voice assistant that performs automation tasks, fetc
 
 Create a `.env` file in the project root and add:
 
-   GOOGLE_API_KEY=your_api_key_here
+   GOOGLE_API_KEY=your_api_key_here <br>
    NEWS_API_KEY=your_newsapi_key
 ## Run
 
