@@ -63,7 +63,7 @@ def ProcessCommand(c):
         link = MusicLibrary.music[song]
         webbrowser.open(link)
     elif "news" in  c.lower():
-        r = requests.get(f"https://newsapi.org/v2/top-headlines?country=us&apiKey={newsapi}")
+        r = requests.get(f"https://newsapi.org/v2/top-headlines?country=us&apiKey={NEWS_API_KEY}")
         if r.status_code == 200:
             #Parse the JSON response
             data = r.json()
