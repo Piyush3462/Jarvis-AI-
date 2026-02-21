@@ -13,7 +13,7 @@ load_dotenv()
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 engine.setProperty('rate', 170)
-newsapi = "4c437c5834824f63abb401700ad92cba"
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 def speak(text):
